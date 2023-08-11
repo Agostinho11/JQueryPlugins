@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="plugin.js"></script>
+</head>
+<body>
+    <section id="en-link-selector" style="display: none">
+        <div class="scroll">
+            <p><font face="Arial" size="5"> <b>VDF Support Contacts</b> </font> <br /></p>
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>VDF Monitoring</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:866-494-9122"><font face="Arial">866-494-9122</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>COPS Monitoring</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">800-633-2677</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>ACS Turnstiles</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">800-263-6548</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>Axis Cameras</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">800-444-2947</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>FM Systems</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">800-235-6960</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>HID. CARD Readers</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">866-607-7339</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>VDF Monitoring</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:866-494-9122"><font face="Arial">866-494-9122</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>COPS Monitoring</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">800-633-2677</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>ACS Turnstiles</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">800-263-6548</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>Axis Cameras</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">800-444-2947</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>FM Systems</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">800-235-6960</font></a></p>
+
+            <p><span class="tab"></span><font face="Arial" size="3" color="Grey"><b>HID. CARD Readers</b> </font> <br /></p>
+            <p><span class="tab"></span><a href="tel:800-633-2677"><font face="Arial">866-607-7339</font></a></p>
+
+
+            <p><span class="tab"></span><input  onclick="excuteGoogle()" type="button" name="button" value="Google" class="button"/></p>
+
+            <p><span class="tab"></span><a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">www.google.com</a>.</p>
+
+            <p><span class="tab"></span><input style="background-color:red" onclick="excuteYoutube()" type="button" name="button" value="Youtube" class="button"/></p>
+
+            <p><span class="tab"></span><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">www.youtube.com</a>.</p>
+        </div>
+    </section>
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+                let plugin = new OfscPlugin(true);
+                plugin.init();
+            });
+        })(jQuery);
+    </script>
+    <section class="bottom-position" id="en-button-selector" >
+        <input onclick="history.go(-1);" type="button" name="button" value="Close" class="block">
+        <div class="inline">
+            <input  type="button" name="button" value="Send Diagnostics" class="block-buttons"/>
+            <input  type="button" name="button" value="MDM Diagnostics" class="block-buttons"/>
+        </div>
+    </section>
+</body>
+</html>

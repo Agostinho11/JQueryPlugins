@@ -1,0 +1,83 @@
+.button-action {
+    transition: ease all 0.3s;
+
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    whitespace: nowrap;
+    padding: 0 5px;
+
+    color: #FCFBFA;
+    border: none;
+    min-width: 100px;
+    border-radius: 5%;
+}
+
+.apptnumber-button {
+    background: #588757;
+}
+
+.resource-button {
+    background: #0e7295;
+}
+
+.activity-form {
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background: #fff;
+
+    font-weight: 300;
+    font-size: 14px;
+    border: 1px solid #d3cfcb;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(26, 24, 22, 0.1);
+    margin: 0 0 24px;
+
+    overflow: hidden;
+
+    max-width: 400px;
+    font-family: -apple-system, 'Oracle Sans', BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important
+
+}
+
+.activity-box {
+    padding: 20px 10px 20px 40px;
+    justify-content: center;
+    height: 100%;
+}
+
+.activities-input {
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 5px;
+    min-width: 90%;
+}
+
+.activity-title {
+    color: #4f4f4f;
+    height: 48px;
+    padding: 0 48px 0 10px;
+    margin: 0 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    font-family: -apple-system, 'Oracle Sans', BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important
+}
+
+.button-container {
+    padding-top: 15px;
+    padding-left: 10px;
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="plugin.js"></script>
+</head>
+<body>
+    <section id="en-link-selectors" style="display: none">
+        <form id="link-selectors">
+            <label for="product">Search Product&nbsp;</label><input id="product" type="text" class="filter">
+            <div class= "checkboxes" id= "mdi"></div>
+            <br/><br/>
+            <label for="lead">Search Lead Type&nbsp;</label><input id="lead" type="text" class="filter">
+            <br/><br/>
+            <div class= "checkboxes" id= "mdl"></div>
+            <br/><br/>
+        </form>
+    </section>
+    <section id="en-inputs" style="display: none">
+        <form id="inputs">
+            <div>
+                <label for="lead">Contact Information&nbsp;</label>
+                <p><input id="cname" type="text" placeholder="Contact Name"></p>
+                <p><input id="cphone" type="text" placeholder="Contact Phone"></p>
+                <p><input id="cemail" type="text" placeholder="Contact Email"></p>
+                <br/><br/>
+                <label for="lead">Customer Information&nbsp;</label>
+                <p><input id="sname" type="text" placeholder="Site Name"></p>
+                <p><input id="saddress" type="text" placeholder="Site Address"></p>
+                <p><input id="city" type="text" placeholder="City"></p>
+                <p><input id="state" type="text" placeholder="State"></p>
+                <p><input id="zip" type="text" placeholder="Zip"></p>
+                <br/><br/>
+                <label for="lead">Lead Description&nbsp;</label>
+                <p><input class="textbox" id="description" type="text"></p>
+            </div>
+        </form>
+    </section>
+    <section class="bottom-position" id="en-buttons" style="display: none">
+        <form id="buttons">
+            <div class="inline">
+                <input  type="button" name="button" value="Submit" class="block-buttons" id="submit"/>
+                <input onclick="history.go(-1);" type="button" name="button" value="Close" class="block-buttons" id="close">
+            </div>
+        </form>
+    </section>
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+                let plugin = new OfscPlugin(true);
+                plugin.init();
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>

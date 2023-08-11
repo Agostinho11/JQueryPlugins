@@ -1,0 +1,57 @@
+.button{
+    background: #1f68e9;
+    cursor:pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.tab {
+    display: inline-block;
+    margin-left: 4em;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #2E86C1;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.inline {
+    display: inline;
+}
+
+.block-buttons{
+    width: 50%;
+    border: none;
+    background-color: #5DADE2;
+    color: white;
+    padding: 14px 28px;
+    font-size: 17px;
+    cursor: pointer;
+    float: left;
+    text-align: justify;
+}
+
+.block-buttons:hover {
+    background-color: #ddd;
+    color: black;
+}
+.scroll {
+    width: 100%;
+    height: 480px;
+    overflow: scroll;
+}
+
+.bottom-position{
+    bottom:2%;
+}

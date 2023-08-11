@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Be Safe</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="plugin.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section id="en-link-selector" style="display: none">
+        <form class="link-form" id="en-link-selector-form">
+            <div class="button-container">
+                <button class="apptnumber-button button-action" id="sendapptnumber">Number</button>
+                <button class="resource-button button-action" id="sendresource">Resource</button>
+            </div>
+        </form>
+    </section>
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+                let plugin = new OfscPlugin(true);
+                plugin.init();
+            });
+        })(jQuery);
+    </script>
+</body>
+
+</html>
